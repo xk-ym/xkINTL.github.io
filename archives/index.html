@@ -207,10 +207,6 @@
                 
                     <ul class="sub hide">
                         
-                        <li><div data-rel="过程记录">过程记录<small>(0)</small></div>
-                            
-                        </li>
-                            
                         <li><div data-rel="计算机">计算机<small>(2)</small></div>
                             
                         </li>
@@ -218,14 +214,6 @@
                     </ul>
                 
             </li>
-            
-        
-    
-        
-            
-        
-    
-        
             
         
     
@@ -242,6 +230,10 @@
                     </ul>
                 
             </li>
+            
+        
+    
+        
             
         
     
@@ -298,27 +290,7 @@
     <div class="tags-list">
     
     <li class="article-tag-list-item">
-        <a href="javascript:" class="color1">Linux</a>
-    </li>
-    
-    <li class="article-tag-list-item">
         <a href="javascript:" class="color3">笔记</a>
-    </li>
-    
-    <li class="article-tag-list-item">
-        <a href="javascript:" class="color3">配置</a>
-    </li>
-    
-    <li class="article-tag-list-item">
-        <a href="javascript:" class="color3">备忘</a>
-    </li>
-    
-    <li class="article-tag-list-item">
-        <a href="javascript:" class="color5">test</a>
-    </li>
-    
-    <li class="article-tag-list-item">
-        <a href="javascript:" class="color4">-笔记 -计算机 -git</a>
     </li>
     
     <li class="article-tag-list-item">
@@ -326,7 +298,15 @@
     </li>
     
     <li class="article-tag-list-item">
+        <a href="javascript:" class="color1">Linux</a>
+    </li>
+    
+    <li class="article-tag-list-item">
         <a href="javascript:" class="color4">git</a>
+    </li>
+    
+    <li class="article-tag-list-item">
+        <a href="javascript:" class="color5">test</a>
     </li>
     
     <div class="clearfix"></div>
@@ -335,12 +315,20 @@
     
     <nav id="title-list-nav">
         
-        <a  class="test newpage "
-           href="/2019/09/17/My-New-Post/"
-           data-tag=""
+        <a  class="笔记 计算机 "
+           href="/2019/09/19/01-linux笔记/"
+           data-tag="笔记,计算机,Linux"
            data-author="" >
-            <span class="post-title" title="My New Post">My New Post</span>
-            <span class="post-date" title="2019-09-17 01:43:17">2019/09/17</span>
+            <span class="post-title" title="linux笔记">linux笔记</span>
+            <span class="post-date" title="2019-09-19 10:19:15">2019/09/19</span>
+        </a>
+        
+        <a  class="笔记 计算机 "
+           href="/2019/09/20/02-git笔记/"
+           data-tag="笔记,计算机,git"
+           data-author="" >
+            <span class="post-title" title="git笔记">git笔记</span>
+            <span class="post-date" title="2019-09-20 12:38:56">2019/09/20</span>
         </a>
         
         <a  class=""
@@ -351,12 +339,12 @@
             <span class="post-date" title="2019-09-18 14:10:44">2019/09/18</span>
         </a>
         
-        <a  class="笔记 计算机 "
-           href="/2019/09/19/01-linux笔记/"
-           data-tag="Linux,笔记,计算机"
+        <a  class="test newpage "
+           href="/2019/09/17/My-New-Post/"
+           data-tag=""
            data-author="" >
-            <span class="post-title" title="linux笔记">linux笔记</span>
-            <span class="post-date" title="2019-09-19 10:19:15">2019/09/19</span>
+            <span class="post-title" title="My New Post">My New Post</span>
+            <span class="post-date" title="2019-09-17 01:43:17">2019/09/17</span>
         </a>
         
         <a  class="test newpage "
@@ -365,14 +353,6 @@
            data-author="" >
             <span class="post-title" title="配置test">配置test</span>
             <span class="post-date" title="2019-09-18 18:31:24">2019/09/18</span>
-        </a>
-        
-        <a  class="笔记 计算机 "
-           href="/2019/09/20/02-git笔记/"
-           data-tag="笔记,计算机,git"
-           data-author="" >
-            <span class="post-title" title="git笔记">git笔记</span>
-            <span class="post-date" title="2019-09-20 12:38:56">2019/09/20</span>
         </a>
         
     </nav>
@@ -457,7 +437,7 @@
     /*作者、标签的自动补全*/
     $(function () {
         $('.search').AutoComplete({
-            'data': ['#Linux','#笔记','#配置','#备忘','#test','#-笔记 -计算机 -git','#计算机','#git',],
+            'data': ['#笔记','#计算机','#Linux','#git','#test',],
             'itemHeight': 20,
             'width': 418
         }).AutoComplete('show');
